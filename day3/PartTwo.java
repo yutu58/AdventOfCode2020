@@ -3,7 +3,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner s = new Scanner(new File("input1.txt"));
         long slope1 = rightXdownY(1, 1);
         long slope2 = rightXdownY(3, 1);
         long slope3 = rightXdownY(5, 1);
