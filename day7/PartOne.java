@@ -16,7 +16,6 @@ public class PartOne {
             if (l.contains(a) && !l.startsWith(a)) {
                 String[] b = l.split(" ");
                 String valid = b[0] + " " + b[1];
-                System.out.println(valid);
                 if (!result.contains(valid)) {
                     result.add(valid);
                     method(valid);
