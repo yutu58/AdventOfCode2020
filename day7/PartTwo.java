@@ -3,7 +3,6 @@ import java.util.*;
 
 public class PartTwo {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner s = new Scanner(new File("input1.txt"));
         System.out.println(method("shiny gold"));
     }
 
