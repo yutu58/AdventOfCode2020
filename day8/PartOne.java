@@ -1,8 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
-    static List<String> result = new ArrayList<>();
+public class PartOne {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner s = new Scanner(new File("input1.txt"));
         List<String> instructions = new ArrayList<>();
