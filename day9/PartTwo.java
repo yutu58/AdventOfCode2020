@@ -10,6 +10,7 @@ public class PartTwo {
             input.add(Long.parseLong(l));
         }
 
+        //This number is the result from part 1.
         long number = 15353384;
 
         for (int i = 0; input.get(i) < number; i++){
