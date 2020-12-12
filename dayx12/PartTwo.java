@@ -8,6 +8,7 @@ public class Main {
         int y = 0;
         int d = 0;
 
+        //The waypoint is represented as a vector (xw, yw) and not by an actual point. The waypoint is relative to the starting point and not to the position of the ship.
         int xw = 10;
         int yw = 1;
 
