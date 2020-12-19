@@ -7,7 +7,7 @@ import javax.swing.*;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class PartOne {
     static int amount = 135;
     static String[] rules = new String[amount];
 
